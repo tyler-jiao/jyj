@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/head-footer.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="head">
+    <div class="head-top">
+        <div class="head-right"><a href="login.html">登录</a> | <a href="register.html">注册</a></div>
+        <div class="head-time"><span></span></div>
+        <p><span>特价甩卖，全场低至九折!</span></p>
+    </div>
+    <div class="head-content clearfix">
+        <span><img src="images/logo.png" alt="logo"></span>
+        <ul class="nav">
+            <li class="active"><a href="index.html">首页</a></li>
+            <li class="one_bar"><a href="presell.html">新品</a>
+                <ul class="two_bar">
+                    <li class="three-bar"><a href="presell.html">预售产品</a></li>
+                    <li class="three-bar"><a href="presell.html">预售新品<span>></span></a>
+                        <ul>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shopping.html">购物广场<span>></span></a>
+                        <ul>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                </ul>
+            </li>
+            <li class="one_bar"><a href="shoppingCar.html">购物车</a>
+                <ul class="two_bar">
+                    <li class="three-bar"><a href="shopping.html">购物广场<span>></span></a>
+                        <ul>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车<span>></span></a>
+                        <ul>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                </ul>
+            </li>
+            <li class="one_bar"><a href="question.html">常见问题</a>
+                <ul class="two_bar">
+                    <li><a href="question.html">常见问题</a></li>
+                    <li><a href="question.html">常见问题</a></li>
+                    <li><a href="question.html">常见问题</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="register ">
+    <div class="register-main">
+        <div class="register-info">
+            <img src="images/logo.png" alt="logo">
+            <p>创建您的 飞鸽 帐户</p>
+        </div>
+        <div class="register-form clearfix">
+            <form action="register-success.html" name="myform" class="myform">
+                <table>
+                    <tr>
+                        <td>用户名：</td>
+                        <td>
+                            <!-- <span>可包含a-z、0-9和下划线</span>-->
+                            <input type="text" class="useName register-input" name="useName"><span class="DivLogin"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>密码：</td>
+                        <td>
+                            <input type="password" class="password register-input" name="password"><span class="DivPass"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>再次输入密码：</td>
+                        <td>
+                            <input type="password" class="repassword register-input" name="repassword"><span class="DivRep"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>电子邮箱：</td>
+                        <td>
+                            <input type="text" class="email register-input" name="email"> <span class="DivEmail"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>性别：</td>
+                        <td>
+                            <input type="radio" name="sex" id="man"><label for="man"><img src="images/man.gif">男</label>
+                            <input type="radio" name="sex" id="woman"><label for="woman"><img
+                                src="images/woman.gif">女</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>爱好：</td>
+                        <td>
+                            <input type="checkbox" name="sport"> 运动
+                            <input type="checkbox" name="chat"> 聊天
+                            <input type="checkbox" name="playGame"> 玩游戏
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>出生年月：</td>
+                        <td>
+                            <select name="year">
+                                <option value="">-选择年份-</option>
+                                <script>
+                                    for (let JYJ_i = 0; JYJ_i < 30; JYJ_i++) {
+                                        document.write("<option value=" + (2015 - JYJ_i) + ">" + (2015 - JYJ_i) + "</option>");
+                                    }
+                                </script>
+                                <!--                                <option value="2000">2000</option>-->
+                                <!--                                <option value="2001">2001</option>-->
+                                <!--                                <option value="2002">2002</option>-->
+                                <!--                                <option value="2003">2003</option>-->
+                                <!--                                <option value="2004">2004</option>-->
+                                <!--                                <option value="2005">2005</option>-->
+                                <!--                                <option value="2006">2006</option>-->
+                                <!--                                <option value="2007">2007</option>-->
+                                <!--                                <option value="2008">2008</option>-->
+                                <!--                                <option value="2009">2009</option>-->
+                            </select><i>年</i>
+                            <select name="mouth">
+                                <option value="">-选择月份-</option>
+                                <script>
+                                    for (let JYJ_i = 1; JYJ_i < 13; JYJ_i++) {
+                                        document.write("<option value=" + JYJ_i + ">" + JYJ_i + "</option>");
+                                    }
+                                </script>
+                                <!--                                <option value="1">1</option>-->
+                                <!--                                <option value="2">2</option>-->
+                                <!--                                <option value="3">3</option>-->
+                                <!--                                <option value="4">4</option>-->
+                                <!--                                <option value="5">5</option>-->
+                                <!--                                <option value="6">6</option>-->
+                                <!--                                <option value="7">7</option>-->
+                                <!--                                <option value="8">8</option>-->
+                                <!--                                <option value="9">9</option>-->
+                                <!--                                <option value="10">10</option>-->
+                                <!--                                <option value="11">11</option>-->
+                                <!--                                <option value="12">12</option>-->
+                            </select><i>月</i>
+                            <select name="day">
+                                <option value="">-选择日份-</option>
+                                <script>
+                                    for (let JYJ_i = 1; JYJ_i < 32; JYJ_i++) {
+                                        document.write("<option value=" + JYJ_i + ">" + JYJ_i + "</option>");
+                                    }
+                                </script>
+                            </select><i>日</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="reset" value="重填">
+                            <input type="submit" value="提交">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer clearfix">
+    <div class="foot-content clearfix">
+        <div class="foot-img">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <table class="cleatfix">
+            <tr>
+                <td>学校:</td>
+                <td>新乡学院</td>
+            </tr>
+            <tr>
+                <td>专业:</td>
+                <td>计算机科学与技术</td>
+            </tr>
+            <tr>
+                <td>班级:</td>
+                <td>2018级计算机科学与技术1班</td>
+            </tr>
+            <tr>
+                <td>学号:</td>
+                <td>20184103084</td>
+            </tr>
+            <tr>
+                <td>姓名:</td>
+                <td>焦跃军</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="copy-rights">
+        <p>Copyright © 2020.jiaoyuejun All rights reserved.</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/head-footer.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+
+
+</body>
+</html>

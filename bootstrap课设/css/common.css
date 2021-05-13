@@ -1,0 +1,46 @@
+/*公共使用类*/
+body{
+    font-family: "微软雅黑";
+}
+.shadow{
+    border-radius: 10px;
+    transform: scale(1.01);
+    box-shadow: 0 0 5px 5px #cccccc;
+}
+.btn-shadow{
+    background-color: #fcd10f;
+    box-shadow: 3px 0 3px #cccccc;
+}
+
+.border-smaller{
+    transform: scale(0.93);
+    box-shadow: 0 0 5px 2px #cccccc;
+}
+
+.chang-color{
+    transition: background-color 2s;
+}
+.chang-color:hover{
+    background-color: #fcd10f;
+}
+
+.shop-car{
+    position: relative;
+
+}
+.shop-car-s{
+    /*content: "";*/
+    display: none;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top:60px;
+    left: -20px;
+    color: black;
+    cursor: default;
+    box-shadow: 0 0 5px 2px #cccccc;
+}
+

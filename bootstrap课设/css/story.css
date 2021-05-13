@@ -1,0 +1,99 @@
+.story{
+    padding: 20px 0 90px;
+    margin: 0 auto;
+    width: 1212px;
+}
+
+.story>p{
+    font-size: 26px;
+    padding: 20px 0;
+}
+.story-left{
+    float: left;
+}
+.story-3d{
+    width: 800px;
+    height: 300px;
+    margin-top: 100px;
+    background-color: #cccccc;
+}
+.story-main{
+    float: right;
+    width: 320px;
+}
+.story-main>p:not(:nth-of-type(4)){
+    text-align: center;
+}
+.story-main>p:first-child{
+    font-size: 16px;
+}
+.story-main>p:nth-of-type(2){
+    font-size: 26px;
+    padding: 20px 0;
+}
+.story-main>p:nth-of-type(3){
+     font-size: 16px;
+    padding-bottom: 40px;
+ }
+.story-main>p:nth-of-type(4){
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+.story-main button{
+    border: none;
+    /*margin-top: 40px;*/
+    outline: none;
+    display: block;
+    width: 130px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 20px;
+    color: white;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.story-main button>a{
+    color: white;
+}
+.story-cycle{
+    padding-top: 100px;
+    width: 800px;
+    /*border:1px solid red;*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+.story-cycle>p{
+    font-size: 26px;
+    padding: 30px 0 80px;
+
+}
+.story-cycle ul{
+    width: 300%;
+    animation: JYJ16 14s linear infinite;
+}
+.story-cycle li{
+    float: left;
+    padding-left: 20px;
+}
+.story-cycle li img{
+    width: 180px;
+    transition: transform 2s;
+}
+
+.story-cycle ul:hover{
+    animation-play-state:paused;
+}
+
+.story-cycle ul img:hover{
+    transform: scale(1.4);
+
+}
+@keyframes JYJ16 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-1200px);
+    }
+}

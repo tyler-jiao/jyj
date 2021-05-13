@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/head-footer.css">
+    <link rel="stylesheet" href="css/shoppingCar.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="head">
+    <div class="head-top">
+        <div class="head-right"><a href="login.html">登录</a> | <a href="register.html">注册</a></div>
+        <div class="head-time"><span></span></div>
+        <p><span>特价甩卖，全场低至九折!</span></p>
+    </div>
+    <div class="head-content clearfix">
+        <span><img src="images/logo.png" alt="logo"></span>
+        <ul class="nav">
+            <li class="active"><a href="index.html">首页</a></li>
+            <li class="one_bar"><a href="presell.html">新品</a>
+                <ul class="two_bar">
+                    <li class="three-bar"><a href="presell.html">预售产品</a></li>
+                    <li class="three-bar"><a href="presell.html">预售新品<span>></span></a>
+                        <ul>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shopping.html">购物广场<span>></span></a>
+                        <ul>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                </ul>
+            </li>
+            <li class="one_bar"><a href="shoppingCar.html">购物车</a>
+                <ul class="two_bar">
+                    <li class="three-bar"><a href="shopping.html">购物广场<span>></span></a>
+                        <ul>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车<span>></span></a>
+                        <ul>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                </ul>
+            </li>
+            <li class="one_bar"><a href="question.html">常见问题</a>
+                <ul class="two_bar">
+                    <li><a href="question.html">常见问题</a></li>
+                    <li><a href="question.html">常见问题</a></li>
+                    <li><a href="question.html">常见问题</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="content">
+    <div class="nav-list">
+        <ul class="clearfix">
+            <li>
+                <input type="checkbox" name="select-all" class="select-all" id="select-all">
+                <label for="select-all">全选</label>
+            </li>
+            <li><span></span></li>
+            <li><span>商品信息</span></li>
+            <li><span></span></li>
+            <li><span>单价</span></li>
+            <li><span>数量</span></li>
+            <li><span>金额</span></li>
+            <li><span>操作</span></li>
+        </ul>
+
+    </div>
+    <div class="cartList">
+        <ul class="clearfix">
+            <li>
+                <p onclick="collection();">移入收藏</p>
+                <p>删除</p>
+            </li>
+            <li id="price0">$62.00</li>
+            <li><input type="button" name="minus" value="-" onclick="minus(0);">
+                <input type="text" name="amount" value="1">
+                <input type="button" name="plus" value="+" onclick="plus(0);">
+            </li>
+            <li>
+                $<input type="text" name="price" value="62.00" readonly="readonly">
+            </li>
+            <li>
+                Jordan 23 Engineered 男子夹克为品牌的经典传承融入未来主义风格。
+                这款梭织夹克采用轻盈耐穿材料，结合轻盈填充物，营造温暖感受。
+            </li>
+            <li><img src="images/pic13.jpg" alt="nike"></li>
+            <li><input type="checkbox" name="Jordan 23 Engineered" class="ck-box" onclick="total();"></li>
+        </ul>
+        <ul class="clearfix">
+            <li>
+                <p onclick="collection();">移入收藏</p>
+                <p>删除</p>
+            </li>
+            <li id="price1">$75.00</li>
+            <li>
+                <input type="button" name="minus" value="-" onclick="minus(1);">
+                <input type="text" name="amount" value="1">
+                <input type="button" name="plus" value="+" onclick="plus(1);">
+            </li>
+            <li>
+                $<input type="text" name="price" value="75.00" readonly="readonly">
+            </li>
+            <li>
+                Nike Sportswear Heritage 男子夹克采用高蓬松度的面料结合气候适应性设计，
+                塑就舒适户外体验。焕新升级的细节可帮助你与基本物件应对不良天气。
+            </li>
+            <li><img src="images/pic14.jpg" alt="nike"></li>
+            <li><input type="checkbox" name="Nike Sportswear Heritage" class="ck-box" onclick="total()"></li>
+
+        </ul>
+        <ul class="clearfix">
+            <li>
+                <p onclick="collection();">移入收藏</p>
+                <p>删除</p>
+            </li>
+            <li id="price2">$61.00</li>
+            <li>
+                <input type="button" name="minus" value="-" onclick="minus(2);">
+                <input type="text" name="amount" value="1">
+                <input type="button" name="plus" value="+" onclick="plus(2);">
+            </li>
+            <li>
+                $<input type="text" name="price" value="61.00" readonly="readonly">
+            </li>
+            <li>
+                Nike Sport Clash 男子全长拉链开襟训练夹克，从经久耐穿的越野摩托车服装汲取设计灵感，
+                采用弹性梭织面料与加固前臂设计，助你自信应对训练挑战。
+            </li>
+            <li><img src="images/pic15.jpg" alt="nike"></li>
+            <li><input type="checkbox" name="Nike Sport Clash" class="ck-box" onclick="total()"></li>
+
+        </ul>
+        <ul class="clearfix">
+            <li>
+                <p onclick="collection();">移入收藏</p>
+                <p>删除</p>
+            </li>
+            <li id="price3">$79.00</li>
+            <li>
+                <input type="button" name="minus" value="-" onclick="minus(3);">
+                <input type="text" name="amount" value="1">
+                <input type="button" name="plus" value="+" onclick="plus(3);">
+            </li>
+            <li>
+                $<input type="text" name="price" value="79.00" readonly="readonly">
+            </li>
+            <li>
+                Nike Sportswear 男子梭织夹克的胸部和后身的 Swoosh 标志延伸至手臂，带来别致外观。
+            </li>
+            <li><img src="images/pic16.jpg" alt="nike"></li>
+            <li><input type="checkbox" name="Nike Sportswear" class="ck-box" onclick="total()"></li>
+
+        </ul>
+        <ul class="clearfix">
+            <li>
+                <p onclick="collection();">移入收藏</p>
+                <p>删除</p>
+            </li>
+            <li id="price4">$65.00</li>
+            <li>
+                <input type="button" name="minus" value="-" onclick="minus(4);">
+                <input type="text" name="amount" value="1">
+                <input type="button" name="plus" value="+" onclick="plus(4);">
+            </li>
+            <li>
+                $<input type="text" name="price" value="65.00" readonly="readonly">
+            </li>
+            <li>
+                Nike Sportswear Varsity 男子梭织夹克具备复古外观和精致结构。
+                休闲版型和罗纹设计，再现经典运动精英夹克风范。
+            </li>
+            <li><img src="images/pic17.jpg" alt="nike"></li>
+            <li><input type="checkbox" name="Nike Sportswear Varsity" class="ck-box" onclick="total()"></li>
+
+        </ul>
+        <ul class="clearfix">
+            <li>
+                <p onclick="collection();">移入收藏</p>
+                <p>删除</p>
+            </li>
+            <li id="price5">$71.00</li>
+            <li>
+                <input type="button" name="minus" value="-" onclick="minus(5);">
+                <input type="text" name="amount" value="1">
+                <input type="button" name="plus" value="+" onclick="plus(5);">
+            </li>
+            <li>
+                $<input type="text" name="price" value="71.00" readonly="readonly">
+            </li>
+            <li>
+                Nike Air 男子上衣采用轻盈耐穿的不易撕裂梭织面料，巧搭反光细节和实用设计元素。
+                时尚双拉链结构，提升透气性，塑就别致外观。
+            </li>
+            <li><img src="images/pic18.jpg" alt="nike"></li>
+            <li><input type="checkbox" name="Nike Air" class="ck-box" onclick="total()"></li>
+
+        </ul>
+
+        <ol>
+            <li>
+                <input type="checkbox" name="select-all" class="select-all" id="select-all1">
+                <label for="select-all1">全选</label>
+            </li>
+            <li><span>已选商品<i id="count">0</i>件</span></li>
+            <li><span>合计（不含运费）: </span></li>
+            <li id="totalPrice">&nbsp;</li>
+            <li>
+                <span>结 算</span>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div class="accounts">
+    <p>您本次购买的商品信息如下：</p>
+    <ul>
+        <li><span>商品</span><span>单价</span><span>件数</span></li>
+    </ul>
+    <p><span>总价：</span><i></i></p>
+    <div class="pay">
+        <button class="chang-color">支付</button>
+    </div>
+</div>
+
+
+<div class="footer clearfix">
+    <div class="foot-content clearfix">
+        <div class="foot-img">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <table class="cleatfix">
+            <tr>
+                <td>学校:</td>
+                <td>新乡学院</td>
+            </tr>
+            <tr>
+                <td>专业:</td>
+                <td>计算机科学与技术</td>
+            </tr>
+            <tr>
+                <td>班级:</td>
+                <td>2018级计算机科学与技术1班</td>
+            </tr>
+            <tr>
+                <td>学号:</td>
+                <td>20184103084</td>
+            </tr>
+            <tr>
+                <td>姓名:</td>
+                <td>焦跃军</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="copy-rights">
+        <p>Copyright © 2020.jiaoyuejun All rights reserved.</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/head-footer.js"></script>
+<script type="text/javascript" src="js/shoppingCar.js"></script>
+
+</body>
+</html>

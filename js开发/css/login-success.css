@@ -1,0 +1,65 @@
+
+.login-s{
+    padding: 20px 0 70px;
+    margin: 0 auto;
+    width: 1212px;
+}
+.login-s>.main>p{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0;
+    text-align: center;
+}
+.s-cycle{
+    padding-top: 100px;
+    width: 880px;
+    /*border:1px solid red;*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+.s-cycle ul{
+    width: 400%;
+    animation: JYJ11 10s linear infinite;
+}
+.s-cycle li{
+    float: left;
+    padding-left: 20px;
+}
+.s-cycle li img{
+    width: 200px;
+    transition: transform 1.5s;
+}
+@keyframes JYJ11 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-880px);
+    }
+}
+.s-cycle ul:hover{
+    animation-play-state:paused; 
+}
+.s-cycle ul img:hover{
+    transform: scale(1.4);
+
+}
+.main button{
+    display: block;
+    border: none;
+    /*margin-top: 40px;*/
+    outline: none;
+    /*display: inline-block;*/
+    width: 130px;
+    height: 40px;
+    background-color: #FF530D;
+    border-radius: 20px;
+    color: white;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.main button a{
+    color: black;
+}
+
+

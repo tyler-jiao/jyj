@@ -1,0 +1,65 @@
+.register{
+    padding: 20px 0 70px;
+    margin: 0 auto;
+    width: 1212px;
+    /*position: relative;*/
+}
+.register-info{
+    text-align: center;
+    /*border: red solid 1px;*/
+}
+.register-info img{
+    margin: 0 auto;
+    width: 40px;
+    display: block;
+    padding-bottom: 10px;
+}
+.register-info p{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.register-form{
+    /*position: absolute;*/
+    padding-left: 30%;
+    /*top: 120px;*/
+    /*left: 33%;*/
+    /*width: 1000px;*/
+    /*border: red solid 1px;*/
+
+}
+.register-form td{
+    padding-top: 20px;
+}
+.register-form td:first-child{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 200;
+}
+.register-form td:last-child{
+    width: 500px;
+    /*border: red solid 1px;*/
+}
+.register-form .register-input{
+    padding: 3px 0.5em;
+    width: 300px;
+}
+.register-form .register-input+span{
+    color: #E24425;
+    font-size: 13px;
+}
+.register-form tr:last-child input[type="reset"]{
+    margin-left: 100px;
+}
+.register-form tr:last-child input{
+    border: none;
+    padding: 0;
+    outline: none;
+    background-color: #E24425;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+}

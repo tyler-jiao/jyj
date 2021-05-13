@@ -1,0 +1,80 @@
+.question{
+    padding: 50px 0 70px;
+    margin: 0 auto;
+    width: 1212px;
+    /* border: 1px solid red; */
+    height: 600px;
+}
+.short {
+    margin: 0 auto;
+    /* width: 88%; */
+    /* border: 1px solid red; */
+}
+.contain {
+    /* overflow: hidden; */
+    width: 200px;
+    float: left;
+    height: 600px;
+    background-color: #dcdbdb;
+}
+.contain .sidebar {
+    position: relative;
+}
+.contain .sidebar header {
+    background-color: #ff2832;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.contain .sidebar dt {
+    cursor: pointer;
+    background-color: #efefef;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    margin-bottom: 2px;
+}
+
+.contain .sidebar dd {
+    padding: 5px 0 5px 10px;
+    font-size: 14px;
+    display: none;
+    cursor: pointer;
+}
+
+.con-p{
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 240px;
+    width: 820px;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: none;
+}
+.con-p p:first-child{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.con-p p:last-child{
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+.contain .sidebar dd a{
+    color:black;
+}
+.bc-img{
+    float: left;
+    margin-top: 40px;
+    width: 820px;
+    height: 500px;
+    /*border: 1px solid #ccc;*/
+    opacity: 0.3;
+    text-align: center;
+}

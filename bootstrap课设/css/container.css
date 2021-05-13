@@ -1,0 +1,313 @@
+/*.container{*/
+/*   margin: 0 150px;*/
+/*   border: 1px solid red;*/
+/*}*/
+.container {
+    /*padding: 0 150px;*/
+    padding: 20px 0 70px;
+    margin: 0 auto;
+    width: 1212px;
+    /*border: 1px solid red;*/
+}
+
+
+.brand-left img {
+    width: 750px;
+}
+
+.brand-left {
+    float: left;
+}
+
+.brand-left .pic{
+    width: 750px;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.brand-left .content{
+            width: 99999px;
+            height: 340px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+
+        }
+        .brand-left .content img{
+            float: left;
+            width: 750px;
+        }
+        .brand-left .index{
+            position: absolute;
+            left: 300px;
+            bottom: 5px;
+            width: 200px;
+            height: 20px;
+            list-style: none;
+        }
+        .brand-left .index li{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            float: left;
+            margin-left: 10px;
+            background-color: rgba(100,100,100,0.3);
+        }
+
+        .brand-left .left{
+            width: 30px;
+            height:50px;
+            background-color:rgba(100,100,100,0.5);  
+            position: absolute;
+            left: 0px;
+            top: 150px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            display: none;
+            cursor: pointer;
+        }
+        .brand-left .right{
+            width: 30px;
+            height:50px;
+            background-color:rgba(100,100,100,0.5);  
+            position: absolute;
+            right: 0px;
+            top: 150px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            display: none;
+            cursor: pointer;
+        }
+        .brand-left .index .first{
+            background-color: red;
+        }
+
+
+.brand-right {
+    float: left;
+    width: 325px;
+    padding-left: 80px;
+}
+
+.brand-right > img {
+    display: inline;
+}
+
+.brand-right > p {
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.brand-right > .i-star {
+    padding: 10px 0;
+}
+
+i.icon-star {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: url(../images/star.png) 0 -3px;
+
+}
+
+.brand-right > span {
+    /*padding-top: 20px;*/
+    display: block;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FF0000;
+    padding: 0 10px;
+    /*text-align: left;*/
+}
+
+button.cart-button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    outline: none;
+    float: left;
+    margin: 12px 0 0 10px;
+    background-color: #FF530D;
+    cursor: pointer;
+}
+
+i.white-cart {
+    width: 20px;
+    height: 20px;
+    background: url(../images/img-sprite.png) no-repeat -40px 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+
+button.cart-button span {
+    font-size: 16px;
+    color: white;
+}
+
+/* .tabs-list {
+    /*border: red solid 1px;*/
+/*} */
+
+.tabs-list .selected {
+    background-color: #fcd10f;
+}
+
+.tabs-list .unselect {
+    background-color: #FF530D;
+}
+
+.tabs-list li {
+    height: 45px;
+    width: 404px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+    margin: 55px 0;
+}
+
+.tabs-list li > a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tabs-list li:hover {
+    background-color: #fcd10f;
+}
+
+.tabs-content {
+    /*padding: 0 60px;*/
+}
+.tabs-content div img{
+    width: 370px;
+}
+.tabs-content div dl {
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.tabs-content div dl:nth-of-type(3n+1){
+    padding-left: 0;
+}
+
+.tabs-content div dl dd {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.tabs dl dt i {
+    display: none;
+}
+
+.tabs dl dd:nth-of-type(1) i {
+    font-size: 20px;
+    padding-left: 190px;
+    color: #FF530D;
+}
+
+.tabs dl dt {
+    position: relative;
+}
+
+.mask {
+    position: absolute;
+    bottom: 70px;
+    left: 140px;
+    background: url(../images/img-sprite.png) no-repeat -5px -100px;
+    width: 140px;
+    height: 45px;
+    /*background-size: 310px;*/
+    /*background-color: red;*/
+}
+
+.tabs-content .tabs {
+    display: none;
+}
+
+.tabs-content .tabs:first-child {
+    display: block;
+}
+
+
+.free{
+    margin: 60px 0;
+}
+.free-ship {
+    /*padding-left: 40px;*/
+    float: left;
+}
+
+.free-ship > p {
+    font-size: 28px;
+    padding-bottom:20px;
+}
+
+.free-s .car-icon {
+    float: left;
+    margin-right: 40px;
+}
+
+.free-s .icon-text {
+    float: left;
+    width: 400px;
+}
+
+.free-s .icon-text p {
+    line-height: 1.5em;
+}
+
+.interest{
+    float: right;
+    width: 400px;
+    height: 120px;
+    margin-top: 40px;
+    background-color: #FF530D;
+}
+.search{
+    padding: 10px 32px;
+}
+.search>p{
+    padding: 10px;
+    color: white;
+    font-size: 26px;
+}
+.interest form input[name="search"] {
+    border: none;
+    /*padding: 0;*/
+    outline: none;
+    width: 250px;
+    height: 40px;
+    padding: 0 0.5em;
+    background-color: white;
+    float: left;
+    /*margin: 5px 0;*/
+}
+.interest form input[name="sub"]{
+    float: left;
+    border: none;
+    padding: 0;
+    outline: none;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    background-color: #fcd10f;
+    transition: background-color 3s;
+}
+.interest form input[name="sub"]:hover{
+    background-color: #FF530D;
+}
+

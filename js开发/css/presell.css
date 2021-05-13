@@ -1,0 +1,72 @@
+.presell{
+    padding: 20px 0 80px;
+    margin: 0 auto;
+    width: 1212px;
+    /*border: 1px solid #0004ff;*/
+}
+.title p{
+    padding: 30px;
+    font-size: 28px;
+}
+
+.detail>p{
+    text-align: center;
+    padding-top: 20px;
+}
+.detail>p:first-child{
+    font-size: 26px;
+    margin-top: 20px;
+}
+.detail>p:last-child{
+    font-size: 20px;
+}
+.detail button{
+    border: none;
+    /*margin-top: 40px;*/
+    outline: none;
+    display: block;
+    width: 130px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 20px;
+    color: white;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+.detail button>a{
+    color: white;
+}
+.recommend{
+    padding: 50px 0;
+}
+.guess-like>ul{
+    /*border: 1px solid red;*/
+}
+.guess-like>ul>li{
+    float: left;
+    padding-left: 30px;
+
+}
+.guess-like>ul>li:first-child{
+    padding-left: 0;
+}
+.guess-like>ul>li img{
+    width: 280px;
+}
+.guess-like>ul>li a{
+    color: black;
+    position: relative;
+}
+.guess-like>ul>li i{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+
+}

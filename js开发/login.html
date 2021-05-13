@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/head-footer.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="head">
+    <div class="head-top">
+        <div class="head-right"><a href="login.html">登录</a> | <a href="register.html">注册</a></div>
+        <div class="head-time"><span></span></div>
+        <p><span>特价甩卖，全场低至九折!</span></p>
+    </div>
+    <div class="head-content clearfix">
+        <span><img src="images/logo.png" alt="logo"></span>
+        <ul class="nav">
+            <li class="active"><a href="index.html">首页</a></li>
+            <li class="one_bar"><a href="presell.html">新品</a>
+                <ul class="two_bar">
+                    <li class="three-bar"><a href="presell.html">预售产品</a></li>
+                    <li class="three-bar"><a href="presell.html">预售新品<span>></span></a>
+                        <ul>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                            <li><a href="presell.html">预售产品</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shopping.html">购物广场<span>></span></a>
+                        <ul>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                </ul>
+            </li>
+            <li class="one_bar"><a href="shoppingCar.html">购物车</a>
+                <ul class="two_bar">
+                    <li class="three-bar"><a href="shopping.html">购物广场<span>></span></a>
+                        <ul>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                            <li><a href="shopping.html">购物广场</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shopping.html">购物广场</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车<span>></span></a>
+                        <ul>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                            <li><a href="shoppingCar.html">购物车</a></li>
+                        </ul>
+                    </li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                    <li class="three-bar"><a href="shoppingCar.html">购物车</a></li>
+                </ul>
+            </li>
+            <li class="one_bar"><a href="question.html">常见问题</a>
+                <ul class="two_bar">
+                    <li><a href="question.html">常见问题</a></li>
+                    <li><a href="question.html">常见问题</a></li>
+                    <li><a href="question.html">常见问题</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="login clearfix">
+    <div class="login-left">
+        <p class="login-h">新客户</p>
+        <p>通过在我们的商店中创建帐户，您将能够更快地完成结帐流程，
+            存储多个送货地址，查看和跟踪帐户中的订单等等。
+        </p>
+        <button class="login-btn chang-color">创建一个账户</button>
+    </div>
+    <div class="login-main">
+        <p class="login-h">登录飞鸽账号</p>
+        <p>如果您拥有我们的帐户，请登录。</p>
+        <div class="login-form">
+            <form action="login-success.html" class="myform" method="post">
+                <ul>
+                    <li><p>请输入用户名</p><input type="text" id="name" name="name" class="input-style" required
+                                            placeholder="用户名" pattern="^user1$"></li>
+                    <li><p>请输入密码</p><input type="password" id="pwd" name="password" class="input-style" required placeholder="密码"
+                                           pattern="^123456$"></li>
+                    <li><input type="checkbox" name="state" id="state"><label for="state">保持登录状态</label></li>
+                    <li><p>一旦登录，即表明你同意 飞鸽 的 <a href="javascript:;">隐私政策*</a>和<a href="javascript:;">使用条款*</a>。</p></li>
+                    <li><span><a href="javascript:;">忘记密码？*</a></span>
+                        <button class="login-btn chang-color">登录</button>
+                    </li>
+                </ul>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="footer clearfix">
+    <div class="foot-content clearfix">
+        <div class="foot-img">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <table class="cleatfix">
+            <tr>
+                <td>学校:</td>
+                <td>新乡学院</td>
+            </tr>
+            <tr>
+                <td>专业:</td>
+                <td>计算机科学与技术</td>
+            </tr>
+            <tr>
+                <td>班级:</td>
+                <td>2018级计算机科学与技术1班</td>
+            </tr>
+            <tr>
+                <td>学号:</td>
+                <td>20184103084</td>
+            </tr>
+            <tr>
+                <td>姓名:</td>
+                <td>焦跃军</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="copy-rights">
+        <p>Copyright © 2020.jiaoyuejun All rights reserved.</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/head-footer.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>
